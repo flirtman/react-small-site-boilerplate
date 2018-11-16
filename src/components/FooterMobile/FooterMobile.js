@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import './FooterMobile.scss';
+
 import {Accordion,AccordionTab} from 'primereact/accordion';
 
 export default class FooterMobile extends Component {

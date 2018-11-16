@@ -9,18 +9,13 @@ import 'primeflex/primeflex.css';
 import {Dialog} from 'primereact/dialog';
 import {Accordion,AccordionTab} from 'primereact/accordion';
 
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
+import Error from "./components/Error/Error";
 
-
-
-import Home from "./components/Home";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Error from "./components/Error";
-
-import Navigation from "./components/Navigation";
-import FooterMobile from "./components/FooterMobile";
-
-
+import Navigation from "./components/Navigation/Navigation";
+import FooterMobile from "./components/FooterMobile/FooterMobile";
 
 class App extends Component {
   render() {
